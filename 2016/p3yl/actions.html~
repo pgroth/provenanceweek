@@ -1,0 +1,129 @@
+
+<html>
+<style>
+.missing {
+    color:  red;
+}
+</style>
+  <head>
+    <title>PROV: Three Years Later</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" media="screen">
+    
+  </head>
+  
+<body>
+
+  <div class="container">
+
+    <div class="navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://provenanceweek.org/2016/p3yl/">Overview</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="programme.html">Programe</a></li>
+          <li><a href="actions.html">Actions</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+    
+
+    <div class="row">
+      
+      
+      <h1><a href="http://provenanceweek.org/2016/p3yl/">PROV: Three Years Later</a></h1>
+
+
+    </div>
+    
+    <div class="row">
+      
+
+<section id="schedule">
+
+<em>We will run <b>IRC channel <tt>#p3yl</tt></b> at <a href="http://irc.w3.org">http://irc.w3.org</a>. Use this IRC channel to share information and comments during the workshop. The IRC log will serve as a persistent record of the meeting. For a quick overview of the IRC commands, see <a href="https://www.w3.org/wiki/IRC">https://www.w3.org/wiki/IRC</a>.</em>
+
+
+<h3>13.15-14.15: Session 1: Experience and Impact (chairs: Curt Tilmes and Paul Groth) </h3>
+<p>The aim of this session is to survey applications that use PROV, the purpose for which PROV was deployed, the benefits that PROV brings, and how much PROV is being adopted.</p>
+
+<p>13:15-13.35: Lightning Talks (each talk 2 minutes, 1 slide)</p>
+<p>13:35-14.15: Discussion</p>
+
+<p>Lightning talks:</p>
+<h4>Government and Business</h4>
+<ul>
+<li> <em>SmartShare: A Ride Sharing Provenance Aware Application</em>, Heather Packer and Luc Moreau [<a href="papers/paper_77.pdf">paper</a>,<a href="slides/slide_77.pdf">slides</a>]
+<li> <em>CollabMap Provenance: Supporting Quality Assessment and Decision Making</em>, Trung Dong Huynh and Luc Moreau [<a href="papers/paper_83.pdf">paper</a>,<a href="slides/slide_83.pdf">slides</a>]
+<li> <em>HAC-ER: Tracking Provenance in Disaster Response</em>, Trung Dong Huynh, Sarvapali Ramchurn and Luc Moreau [<a href="papers/paper_88.pdf">paper</a>,<a href="slides/slide_88.pdf">slides</a>]
+<li> <em>Provenance in Business Applications with Visualization</em>, Kenneth Beckett and Oshani Seneviratne [<a href="papers/paper_80.pdf">paper</a>,<a href="slides/slide_80.pdf">slides</a>]
+<li> <em>PROV in Electronic Health Records Systems: Leveraging Value By Defining Borders</em>, Reed Gelzer [<a href="papers/paper_92.pdf">paper</a>,<a href="slides/slide_92.pdf">slides</a>]
+<li> <em>Nodes and Edges: Australian government provenance data holders and their interactions</em>, Nicholas Car [<a href="slides/slide_100.pdf">slides</a>]
+</ul>
+<h4>Science </h4>
+<ul>
+<li> <em> PROV in StatJr</em>, Danius Michaelides and Luc Moreau [<a href="papers/paper_78.pdf">paper</a>,<a href="slides/slide_78.pdf">slides</a>]
+<li> <em>PICASO: Provenance Interlinking and Collective Authoring for Scientific Objects</em>, Trung Dong Huynh, Danius Michaelides and Luc Moreau [<a href="papers/paper_84.pdf">paper</a>,<a href="slides/slide_84.pdf">slides</a>]
+<li> <em>PROV in the Global Change Information System (GCIS)</em>, Curt Tilmes and Robert Wolfe [<a href="papers/paper_85.pdf">paper</a>,<a href="slides/slide_85.pdf">slides</a>]
+<li> <em>Tracking workflow execution with TavernaProv</em>, Stian Soiland-Reyes, Pinar Alper and Carole Goble [<a href="papers/paper_86.pdf">paper</a>,<a href="slides/slide_86.pdf">slides</a>]
+<li> <em>ProvONE: extending PROV to support the DataONE scientific community</em>, Paolo Missier, Yang Cao, Victor Cuevas-Vicenttin, Matthew Jones, Bertram Ludaescher, Christopher Jones, Mcphillips McPhillips, Christopher Schwalm, Peter Slaughter, Dave Vieglais, Lauren Walker and Yaxing Wei [<a href="papers/paper_82.pdf">paper</a>,<a href="slides/slide_82.pdf">slides</a>]
+<li> <em>Quantitatively Understanding Workflow Behavior using prov:Bundle to Associate Traditional Workflow Provenance to System Metrics</em>, Eric Stephan, Todd Elsethagen, Bibi Raju, Kerstin Kleese van Dam, Alok Singh, Ilkay Altintas and Darren Kerbyson [<a href="papers/paper_91.pdf">paper</a>,<a href="slides/slide_91.pdf">slides</a>]
+</ul>
+<h4>Impact</h4>
+<ul>
+<li> <em>Measuring PROV Provenance on the Web of Data</em>, Paul Groth and Wouter Beek [<a href="papers/paper_89.pdf">paper</a>,<a href="slides/slide_89.pdf">slides</a>]
+</ul>
+
+<h3>14.15-14.30 Short break</h3>
+<h3>14.30-15.30: Session 2: Inter-operability Issues and Gaps (chairs: Deborah Nichols and Curt Tilmes)</h3>
+
+<p>The aim of this session is to identify issues that prevent inter-operability or gaps in existing PROV specifications.</p>
+
+<p>14:30-14.50: Lightning Talks (each talk 2 minutes, 1 slide)</p>
+<p>14:50-15.30: Discussion</p>
+
+<p>Lightning talks:</p>
+<ul>
+<li> <em>Extending the FHIR standard to handle provenance</em>, John Moehrke, Arnon Rosenthal and Adriane Chapman [<a href="papers/paper_79.pdf">paper</a>,<a href="slides/slide_79.pdf">slides</a>]
+<li> <em>Augmenting Provenance Records with Trust in Enterprise Applications</em>, Oshani Seneviratne and Ken Beckett [<a href="papers/paper_81.pdf">paper</a>,<a href="slides/slide_81.pdf">slides</a>]
+<li> <em>Comments of the use of PROV as the underlying data model for brain imaging</em>, Satrajit Ghosh, Nolan Nichols, Tibor Auer, Vanessa Sochat, Camille Maumet and Jean-Baptiste Poline [<a href="papers/paper_90.pdf">paper</a>,<a href="slides/slide_90.pdf">slides</a>]
+<li> <em>PROV-SAID: A W3C PROV Extension for Information Diffusion on Social Media</em>, Tom De Nies, Io Taxidou, Peter Fischer, Erik Mannens, Rik Van de Walle [<a href="papers/paper_94.pdf">paper</a>,<a href="slides/slide_94.pdf">slides</a>]
+<li> <em> PROV Data Model - RDF Interoperability Data Properties, Object Properties, UML Attributes, UML Associations</em>, Luc Moreau [<a href="papers/paper_76.pdf">paper</a>,<a href="slides/slide_76.pdf">slides</a>]
+<li> <em>Directed Qualified Pattern, Influence, Non-Influence Relations, Optional Attributes</em>, Luc Moreau [<a href="papers/paper_87.pdf">paper</a>,<a href="slides/slide_87.pdf">slides</a>]
+<li> <em>Recording Provenance of Distributed Applications</em>, Peter Buneman, Adria Gascon and Luc Moreau	[<a href="papers/paper_93.pdf">paper</a>,<a href="slides/slide_93.pdf">slides</a>]
+</ul>
+
+<h3>15.30-16.00 Coffee break</h3>
+<h3>16.00-17.00: Session 3: Roadmap (chairs: Luc Moreau and Paul Groth)</h3>
+<p>The aim of this session is to map potential activities around tooling, challenges, software, impact, etc, to prioritize potential community, standardisation and research efforts, and to identify who would be interest in which activity.</p>
+
+<h3>17:00 Closing</h3>
+<p>Conversations will continue around a drink and/or meal, to be decided on the day.  </p>
+
+      
+</section>
+
+</div>
+
+
+</div>
+
+    </div> <!-- /container -->
+
+
+  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="boostrap3/js/bootstrap.min.js"></script>
+</body>
+</html>

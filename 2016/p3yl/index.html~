@@ -1,0 +1,346 @@
+
+<html>
+  <head>
+    <title>COMP2209 Programming III</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" media="screen">
+    
+  </head>
+  
+<body>
+
+  <div class="container">
+
+    <div class="navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="https://secure.ecs.soton.ac.uk/notes/comp2209/">COMP 2209</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="timetable.html">Timetable</a></li>
+          <li><a href="http://www.ecs.soton.ac.uk/module/COMP2209">Syllabus</a></li>
+          <li><a href="gambit-in-the-browser/index.html">Scheme</a></li>
+          <li><a href="testing.html">Testing</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+    
+
+    <div class="row">
+      
+      
+      <h1><a href="http://www.ecs.soton.ac.uk/notes/comp2209/">COMP2209 Programming III</a></h1>
+      
+    </div>
+    
+    <div class="row">
+      
+
+<section id="administration">
+<h3>Administration</h3>
+<ul>
+<li>The course is described in the <a href="http://www.ecs.soton.ac.uk/module/COMP2209">CS Booklet entry</a>.  Also see <a href="https://secure.ecs.soton.ac.uk/module/1516/COMP2209/31031/">the other module page</a>.</p>
+
+
+
+<li> <p>Course administration is described in the <a
+href="admin.html">Admin document</a> - everyone <em>must</em>
+read this.</p>
+
+<!--<li> <p> <B style='color:black'>28/09/2013: Note for Resitting Students:</B>
+Resitting students are expected to take the exam and to do the second
+coursework item. They can optionally do  the first coursework. They should submit their solutions using the same
+procedure and at the same time as the other students. The coursework and exam components keep the same weight. </p>
+-->
+</ul>
+</section>
+
+</div>
+
+<div class="row">
+<section id="online">
+<h3>Online Resources</h3>
+
+<ul>
+<LI> The set of lecture notes is available in
+ <a HREF="comp2209.pdf">pdf</A> format.
+<P>
+
+<LI> The slides as pdf files:
+<ol>
+<li><A HREF="slides/slides0.pdf">Intro (0)</A>, 
+<li><A HREF="slides/slides1.pdf">Foundations (1)</A>, 
+<li><A HREF="slides/slides2.pdf">Recursive Functions (2)</A>,
+<li><A HREF="slides/slides3.pdf">S-expressions (3)</A>,
+<li><A HREF="slides/slides4.pdf">Structural Recursion (4)</A>,
+<li><A HREF="slides/slides5.pdf">Recursion and Processes (5)</A>,
+<li><A HREF="slides/slides6.pdf">Advanced Scheme (6)</A>,
+<li><A HREF="slides/slides7.pdf">Environment Model (7)</A>,
+<li><A HREF="slides/slides8.pdf">Eval (8)</A>,
+<li><A HREF="slides/slides9.pdf">Graphs (9)</A>,
+<li><A HREF="slides/slides10.pdf">Lexical scope (10)</A>,
+<li><A HREF="slides/slides11.pdf">Message-passing (11)</A>,
+<li><A HREF="slides/slides12.pdf">cps (12)</A>,
+<li><A HREF="slides/slides13.pdf">cps eval (13)</A>,
+<li><A HREF="slides/slides14.pdf">Streams (14)</A>,
+<li><A HREF="slides/slides15.pdf">Java (15)</A>,
+<li><A HREF="slides/slides16.pdf">Javascript (16)</A>.
+</ol>
+
+
+ <P id='onlinebooks'>
+
+   <LI> Online Books. We strongly recommend the first one:
+     <ul>
+       <li> <a HREF="http://mitpress.mit.edu/sicp/full-text/book/book.html">Online version</a> of Structure and Interpretation of Computer Programs. (MIT Course)</li>
+       <li>SimplyScheme book <a href="https://www.cs.berkeley.edu/~bh/ss-toc2.html">https://www.cs.berkeley.edu/~bh/ss-toc2.html</a> (Berkeley Course)</li>
+       <li>ChezScheme book <a href="http://www.scheme.com/tspl4/">http://www.scheme.com/tspl4/</a></li>
+       
+       <li>How to design programs book <a href="http://www.htdp.org/2003-09-26/Book/">http://www.htdp.org/2003-09-26/Book/</a>
+       <li>How to design classes <a href="http://www.ccs.neu.edu/home/matthias/HtDC/htdc.pdf">http://www.ccs.neu.edu/home/matthias/HtDC/htdc.pdf</a>
+     </ul>
+<p>
+
+<li> The Revised<sup>5</sup> Report on the Algorithmic Language <a href="../docs/r5rs.pdf">Scheme</a> is the dialect of lisp that we will be using in this module. <p>
+<ul>
+<li>Other specifications are available for information: <a href="../docs/r6rs.pdf">r6rs</a>, <a href="../docs/r5rs.pdf">r5rs</a>, <a href="../docs/r4rs.pdf">r4rs</a>, <a href="../docs/r3rs.pdf">r3rs</a>.</li><p>
+<li> Scheme Community <a href="http://scheme-reports.org/">process</a>.</li>
+</ul>
+<p>
+
+<li>  <a href="http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.27">The Java Lambda specification</a>. <p>
+
+<LI> Some MIT video files:
+<ul>
+<li> <A HREF="../videos/Lecture-6a.mpg">lecture 6a</A> 
+<li> <A HREF="../videos/Lecture-6b.mpg">lecture 6b</A> 
+<li> <A HREF="../videos/Lecture-3a.mpg">lecture 3a</A> 
+</ul>
+</ul>
+<p>
+
+</div>
+
+    <div class="row">
+
+<section id="coursework">
+<h3>Coursework</h3>
+
+<ul>
+
+
+
+
+
+<LI> <B>Coursework 1 (published on 14/10/2015)</B>   <A HREF="cwk/cwk-15-16-1.pdf">pdf file</A> (30% of final mark).
+  Handin <a href="https://handin.ecs.soton.ac.uk/handin/1516/COMP2209/1/">page</a> .
+
+<p> <B>19/10/2015: Update</B> For the latest version of the tests, please check the online versions. </p>
+
+
+<LI> <B  style='color:red'>Coursework 2  (final specification 17/11/2015)</B>   <A HREF="cwk/cwk-15-16-2.pdf">pdf file</A> (35% of final mark).
+  (Note a draft and call for comments was published on 06/11/2015).
+  Handin <a href="https://handin.ecs.soton.ac.uk/handin/1516/COMP2209/3/">page</a>.
+
+<p> For the latest version of the tests, please check the online versions, see 
+<a href="https://secure.ecs.soton.ac.uk/notes/comp2209/15-16/cwk/cwk2/">test folder</a>.</p>
+</li>
+</menu>
+
+
+
+<LI> 
+
+ <P><EM>Submission procedure</EM>.
+Read this remark about <A HREF="submissions.html">submissions</A>.
+
+ <P>
+
+ <P>
+<LI> <EM>Solutions to coursework</EM>.
+<ul>
+<li id="solutions-cwk1"><i>Solutions to first coursework</i> 
+<ul>
+<li>  <a href="cwk/cwk1/average.scm">average.scm</a>
+<li>  <a href="cwk/cwk1/diagonal.scm">diagonal.scm</a>
+<li>  <a href="cwk/cwk1/graph.scm">graph.scm</a>
+<li>  <a href="cwk/cwk1/set-union.scm">set-union.scm</a>
+</ul>
+ <P>
+
+<li id="solutions-cwk2"><i>Solutions to second coursework</i> 
+<ul>
+<ul>
+<li>  <a href="cwk/cwk2/to-memory.scm">to-memory.scm</a>
+<li>  <a href="cwk/cwk2/from-memory.scm">from-memory.scm</a>
+<li>  <a href="cwk/cwk2/tracer.scm">tracer.scm</a>
+<li>  <a href="cwk/cwk2/copy.scm">copy.scm</a>
+</ul>
+</ul>
+ <P>
+<LI> <I>Marks</I> <P>
+
+The mark for each question is given for feedback.  The overall grade
+letter for each coursework is subject to moderation at the end of the
+year.  
+
+
+
+
+</ul>
+</section>
+</div>
+
+    <div class="row">
+
+<section id="implementation">
+<h3>Scheme Implementations</h3>
+
+<ul>
+<LI> 
+We recommend <A
+HREF="http://gambitscheme.org/">gambit</A>,
+a Scheme environment that runs on Windows, MacOS, Unix, ipads.
+<ul>
+<li>  <B>gsi</B> is the command line interpreter. To be sure you are using the R5RS dialect, you may want to use the executable <b>scheme-r5rs</b>.
+<li>  <B>gsc</B> is a compiler to C
+<li>  A <a href="gambit-in-the-browser/index.html">javascript version</a>  also runs directly in the browser, and can be used for small examples.
+<li>  <a href="gambit/gambit-c.pdf">User's guide</a> for gambit.
+</ul>
+
+<LI> As far as a development environment is concerned:
+<ul>
+<li>  <B>SchemeScript</B> is an eclipse plugin available from <a href="https://github.com/schemeway/SchemeScript">https://github.com/schemeway/SchemeScript</a>. 
+
+<p>To install the plugin:
+<ul>
+<li> click on Help/ Install New Software...
+<li> click on Add... and enter the plugin update site location: http://schemeway.github.io/SchemeScript/update-site
+<li> select the latest SchemeScript feature
+<li> click Next and follow the instructions
+</ul>
+
+<li> To configure, SchemeScript, follow the instructions at <a href="http://theschemeway.blogspot.co.uk/2006/09/running-gambit-c-with-schemescript.html">http://theschemeway.blogspot.co.uk/2006/09/running-gambit-c-with-schemescript.html</a>.
+<ul>
+<li> Simply define <tt>gsi -:d-</tt> as the interpreter.
+</ul>
+
+<li><a href="previous-implementation.html">Previously suggested implementations</a>.
+</ul>
+
+</section>
+</div>
+
+<div class="raw">
+<section id="evaluator">
+<h3>Evaluator</h3>
+
+<ul>
+<LI> <EM>Evaluator in Scheme</EM>: The
+meta-circular <A HREF="eval/eval.scm">evaluator</A>.  The toplevel loop is initiated by calling driver-loop.  
+
+<p> To compile the evaluator with gambit:
+ <pre>
+gsc -o eval -exe eval.scm
+ </pre>
+or to run it directly in the gambit interpreter:
+ <pre>
+gsi eval.scm
+ </pre>
+
+
+
+<p> For DrRacket, you may want to use <A HREF="eval/eval-drracket.txt">drracket evaluator</A>, in which eval was renamed evaluate and apply  do-apply.
+
+
+
+ <P>
+
+<LI> <EM>Evaluator in Java</EM>: The java source code of the 
+ <A HREF="eval-java.tar.gz">evaluator</A> (maven-generated  <A HREF="https://secure.ecs.soton.ac.uk/notes/comp2002/12-13/web-java">evaluator project pages</A>).  
+
+<p>You need to install apache maven (version 2.x). To compile, call mvn install. To run, call java -jar target/scheme-0.1-SNAPSHOT.jar.g </p>
+
+<LI> <EM>Evaluator in Scala</EM>: The Scala source code of the 
+ <A HREF="scheme-in-scala.tar.gz">evaluator</A>.  
+
+<p>You need to install apache maven (version 2.x). To compile, call mvn install. See Makefile to run </p>
+
+<LI> <EM>Evaluator in Objc</EM>: The Objective-C source code of the 
+ <A HREF="eval-objc.tar.gz">evaluator</A> (oxygen-generated  <A HREF="web-objc">evaluator project pages</A>).  
+
+
+ <P>
+<!--
+<LI> <I>Streams and macros</I>
+
+<ul>
+<LI> <A HREF="13-14/streams-macros/examples.scm">examples.scm</A>
+<LI> <A HREF="13-14/streams-macros/talk-macros.ppt">talk on macros</A>
+<LI> <A HREF="13-14/streams-macros/Scheme Macros-in danish.ppt">Scheme Macros-in danish.ppt</A>
+</ul>
+
+ <P>
+
+
+<li><em>Functional Programming and the Web</em>
+<ul>
+<li> <a href="http://openjdk.java.net/projects/lambda/">Project Lambda</a> for Java
+<li> <a href="http://groovy.codehaus.org/Closures">Groovy closures</a>
+<li> <a href="http://www.scala-lang.org/">Scala</a>
+<li> Javascript closures
+</ul>
+
+-->
+
+ <P> <P>
+
+<!--
+
+<LI> Hugh's paper on programming recursively (i.e. "programming by
+number") <A HREF="13-14/bynumber.pdf">paper</A>.
+ <P> <P>
+
+<LI>  Christian Queinnec's  <A HREF="http://www.infop6.jussieu.fr/cederoms/VideoScm2002/informatique/index.html">course on Scheme</A> (in French!), and his suggested exercices:
+<A HREF="http://www.infop6.jussieu.fr/cederoms/VideoScm2002/informatique/WWW/deug/2002/mias/mias-a/public/exercices/exo-student-saison1.pdf">Exercices Set 1</A>
+and <A HREF="http://www.infop6.jussieu.fr/cederoms/VideoScm2002/informatique/WWW/deug/2002/mias/mias-a/public/exercices/exo-student-saison2.pdf">Exercices Set 2</A>.
+
+
+-->
+</ul>
+</section>
+</div>
+
+    <div class="row">
+
+
+
+<HR>
+<address>
+<a href="http://www.ecs.soton.ac.uk/~lavm/">Luc Moreau</a> 
+<!-- and
+<a href="http://www.ecs.soton.ac.uk/~hg/">Hugh Glaser</a>
+-->
+<p>
+</address>
+
+</div>
+
+    </div> <!-- /container -->
+
+
+  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="boostrap3/js/bootstrap.min.js"></script>
+</body>
+</html>

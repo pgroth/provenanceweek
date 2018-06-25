@@ -1,0 +1,142 @@
+
+<html>
+  <head>
+    <title>COMP2209 Programming III</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" media="screen">
+    
+  </head>
+  
+<body>
+
+  <div class="container">
+
+    <div class="navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="https://secure.ecs.soton.ac.uk/notes/comp2209/">COMP 2209</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="timetable.html">Timetable</a></li>
+          <li><a href="http://www.ecs.soton.ac.uk/module/COMP2209">Syllabus</a></li>
+          <li><a href="gambit-in-the-browser/index.html">Scheme</a></li>
+          <li><a href="testing.html">Testing</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+    
+
+    <div class="row">
+      
+      
+      <h1><a href="http://www.ecs.soton.ac.uk/notes/comp2209/">COMP2209 Programming III</a></h1>
+      
+    </div>
+    
+    <div class="row">
+      
+
+<section id="timetable">
+<h3>Timetable</h3>
+<ul>
+<li> Week 1/L1: Module overview (<a href="slides/slides0.pdf">slide deck 0</a>)
+<li> Week 1/L2: Scheme, History of Scheme, S-expression, Functional application (<a href="slides/slides1.pdf">slide deck 1</a>)
+<li> Week 1/L3: Five principles (<a href="slides/slides1.pdf">slide deck 1</a>)
+<li> Week 1/TUT: Five principles (<a href="slides/slides1.pdf">slide deck 1</a>)
+<p/>
+<li> Week 2/L1: Advanced S-expressions (<a href="slides/slides3.pdf">slide deck 3</a>)
+<li> Week 2/L2: Advanced S-expressions (<a href="slides/slides3.pdf">slide deck 3</a>)
+<li> Week 2/L3: Recursion on flat lists (<a href="slides/slides4.pdf">slide deck 4</a>)
+<li> Week 2/TUT: Simple recursive functions on lists (<a href="slides/slides2.pdf">slide deck 2</a>): fact, sum-numbers, fib, sum, append, table (cons/append/list).
+<p/>
+<li> Week 3/L1:  Recursion on binary trees and S-expressions (<a href="slides/slides4.pdf">slide deck 4</a>)
+<li> Week 3/L2: Recursion on deep lists, n-ary trees (<a href="slides/slides4.pdf">slide deck 4</a>)
+<li> Week 3/L3: Recursion on xml and json trees (<a href="slides/slides4.pdf">slide deck 4</a>)
+<li> Week 3/TUT: Simple recursive functions on lists. last-pair, last, swap, reverse, list-ref, map (map-square, map-plus1), filter.
+<p/>
+<li> Week 4/L1: Iteration/recursion	 (<a href="slides/slides5.pdf">slide deck 5</a>)
+<li> Week 4/L2: map, filter, reduce, reduce-sexp  (<a href="slides/slides5.pdf">slide deck 5</a>), introduction to let (<a href="slides/slides6.pdf">slide deck 6</a>)
+<li> Week 4/L3: continuation of advanced scheme, let, let*, letrec, letrec*, internal define (<a href="slides/slides6.pdf">slide deck 6</a>)
+<li> Week 4/TUT: prup, count-pairs, depth-tree, mirror
+<p/>
+<li> Week 5/L1:	environment model (<a href="slides/slides7.pdf">slide deck 7</a>)
+<li> Week 5/L2: example with curry (<a href="slides/slides7.pdf">slide deck 7</a>)
+<li> Week 5/L3: and, or, begin, I/O, simple apply, for-each, (<a href="slides/slides6.pdf">slide deck 6</a>)
+<li> Week 5/TUT: get-path, annotate-depth, generate-tree, balanced-tree, same-structure?, 
+
+<p/>
+<li> Week 6/L1:	eval (<a href="slides/slides8.pdf">slide deck 8</a>)
+<li> Week 6/L2: imperative features (<a href="slides/slides6.pdf">slide deck 6</a>)
+<li> Week 6/L3: message passing  (<a href="slides/slides11.pdf">slide deck 11</a>)
+<li> Week 6/TUT: annotate-depth, same-structure?, replace-leaves-by-sum-of-previous-leaves
+
+
+<p/>
+<li> Week 7/L1:	graphs processing (<a href="slides/slides9.pdf">slide deck 9</a>)
+<li> Week 7/L2: evaluator in Java
+<li> Week 7/L3: overview of the second coursework
+<li> Week 7/TUT: feedback session on first coursework
+
+<p/>
+<li> Week 8/L1: continuation-passing style  (<a href="slides/slides12.pdf">slide deck 12</a>)
+<li> Week 8/L2: continuation-passing style  (<a href="slides/slides12.pdf">slide deck 12</a>)
+<li> Week 8/L3: continuation-passing evaluator  (<a href="slides/slides13.pdf">slide deck 13</a>)
+<li> Week 8/TUT: mirror with sharing, linearize, shift-right, derivative and simplification
+
+<p/>
+<li> week 9/L1: streams and lazy evaluation  (<a href="slides/slides14.pdf">slide deck 14</a>)
+<li> week 9/L2: streams and lazy evaluation  (<a href="slides/slides14.pdf">slide deck 14</a>)
+<li> week 9/L3: Introduction to Scala  (<a href="http://www.slideshare.net/tpunder/a-brief-intro-to-scala">http://www.slideshare.net/tpunder/a-brief-intro-to-scala</a>)
+<li> week 9/TUT: cps examples: copy, tree-copy, map-cps
+
+
+<p/>
+<li> week 10/L1: Lambda expressions in Java  (<a href="slides/slides15.pdf">slide deck 15</a>)
+<li> week 10/L2: Streams in Java (<a href="slides/slides15.pdf">slide deck 15</a>)
+<li> week 10/L3: Functional Programming and Javascript  (<a href="slides/slides16.pdf">slide deck 16</a>)
+<li> week 10/TUT: 
+
+<p/>
+<li> week 11/L1: Streams in Java (<a href="slides/slides15.pdf">slide deck 15</a>)
+<li> week 11/L2: Revision lecture
+<li> week 11/L3: no lecture
+<li> week 11/TUT: no tutorial
+
+
+
+<p/>
+<li> week 12/L1: Revision lecture
+<li> week 12/L2: feedback session on second coursework
+<li> week 12/L3: no lecture
+<li> week 12/TUT: no tutorial
+</ul>
+</section>
+
+</div>
+
+<HR>
+<address>
+<a href="http://www.ecs.soton.ac.uk/~lavm/">Luc Moreau</a> 
+<p>
+</address>
+
+</div>
+
+    </div> <!-- /container -->
+
+
+  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="boostrap3/js/bootstrap.min.js"></script>
+</body>
+</html>
