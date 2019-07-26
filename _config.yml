@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: [Provenance Week]
 description: [Collocated events around data provenance]
+plugins:
+  - jekyll-redirect-from
