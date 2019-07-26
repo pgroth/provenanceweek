@@ -5,7 +5,7 @@ Provenance Week is a series of colocated events around the theme of provenance. 
 Follow us on twitter for updates [@provenanceweek](https://twitter.com/provenanceweek)
 
 Provenance Weeks:
-* [Provenance Week 2020](https://iitdbgroup.github.io/ProvenanceWeek2020/) - Charlotte, North Carolina, USA 
+* [Provenance Week 2020](https://provenanceweek.org/2020/) - Charlotte, North Carolina, USA 
 * [Provenance Week 2018](http://provenanceweek2018.org) - London, UK 
 * [Provenance Week 2016](http://www2.mitre.org/public/provenance2016/) - McLean, Virginia, USA
 * [Proveance Week 2014](http://provenanceweek.dlr.de) - Cologne, Germany
