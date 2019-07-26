@@ -1,3 +1,5 @@
-## Provenance Week 2020
-
-Placeholder for the 2020 event.
+---
+title: ProvenanceWeek 2020
+redirect_to:
+  - https://iitdbgroup.github.io/ProvenanceWeek2020/
+---
