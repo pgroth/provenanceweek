@@ -1,6 +1,6 @@
 Provenance Week is a series of colocated events around the theme of provenance. In particular:
 * [International Provenance & Annotation Workshop (IPAW)](http://ipaw.info)
-* [USENIX Workshop on the Theory and Practice of Provenance (TaPP)](https://www.usenix.org/conferences/byname/186)
+* [International Workshop on the Theory and Practice of Provenance (TaPP)](https://www.usenix.org/conferences/byname/186)
 
 Follow us on twitter for updates [@provenanceweek](https://twitter.com/provenanceweek)
 
