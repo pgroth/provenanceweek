@@ -5,6 +5,7 @@ Provenance Week is a series of colocated events around the theme of provenance. 
 Follow us on twitter for updates [@provenanceweek](https://twitter.com/provenanceweek)
 
 Provenance Weeks:
+* [Provenance Week 2025](https://ucdbg.github.io/ProvenanceWeek2025/) - Berlin, Germany - collocated with [SIGMOD2025](https://2025.sigmod.org)
 * [Provenance Week 2023](https://provenanceweek.github.io/ProvenanceWeek2023/) - Austin, TX, USA - collocated with [WebConf 2023](https://www2023.thewebconf.org)
 * [Provenance Week 2021](https://provenanceweek.org/2021/) - Charlotte, North Carolina, USA 
 * [Provenance Week 2020](https://provenanceweek.org/2020/) - Charlotte, North Carolina, USA 
